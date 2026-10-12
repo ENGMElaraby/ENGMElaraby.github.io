@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eng. Mohammed Elaraby | Senior Software Engineer &amp; Technical Lead</title>
+  <meta name="description" content="Eng. Mohammed Elaraby — Senior Software Engineer and Technical Team Lead in Alexandria, Egypt. 9+ years with PHP, Symfony, Laravel, Drupal, and cloud.">
+  <meta property="og:title" content="Eng. Mohammed Elaraby">
+  <meta property="og:image" content="assets/mohammed-elaraby.jpg">
+  <link rel="icon" href="assets/mohammed-elaraby.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" data-text="footer"></a>
+    <nav class="nav" id="nav" aria-label="Sections"></nav>
+    <div class="controls">
+      <button class="pill" id="langToggle" type="button"></button>
+      <select class="pill" id="themeSelect" aria-label="Theme"></select>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="card hero">
+      <div class="hero-text">
+        <p class="handle" id="handle"></p>
+        <h1 class="name">
+          <span class="prefix" data-text="prefix"></span>
+          <span data-text="firstName"></span>
+          <span data-text="lastName"></span>
+        </h1>
+        <p class="title" data-text="title"></p>
+        <p class="tagline" data-text="tagline"></p>
+        <div class="bio" id="bio"></div>
+        <div class="actions" id="actions"></div>
+      </div>
+      <figure class="hero-photo">
+        <div class="photo-frame"><img id="photo" alt="Mohammed Elaraby" width="800" height="800"></div>
+        <figcaption data-text="photoCaption"></figcaption>
+      </figure>
+    </section>
+
+    <section class="section" id="focus">
+      <h2 data-text="focusTitle"></h2>
+      <p class="intro" data-text="focusIntro"></p>
+      <div class="grid grid-4" id="focusList"></div>
+    </section>
+
+    <section class="section" id="experience">
+      <h2 data-text="experienceTitle"></h2>
+      <p class="intro" data-text="experienceIntro"></p>
+      <ol class="timeline" id="experienceList"></ol>
+      <h3 class="subhead" data-text="skillsTitle"></h3>
+      <ul class="chips" id="skillsList"></ul>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 data-text="projectsTitle"></h2>
+      <p class="intro" data-text="projectsIntro"></p>
+      <div class="grid" id="projectsList"></div>
+    </section>
+
+    <section class="section" id="highlights">
+      <h2 data-text="highlightsTitle"></h2>
+      <p class="intro" data-text="highlightsIntro"></p>
+      <div class="stats" id="statsList"></div>
+      <div class="grid grid-4" id="highlightsList"></div>
+    </section>
+
+    <section class="card contact" id="contact">
+      <h2 data-text="contactTitle"></h2>
+      <p data-text="contactText"></p>
+      <a class="btn btn-primary" id="btnContact"></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> <span data-text="footer"></span></span>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
